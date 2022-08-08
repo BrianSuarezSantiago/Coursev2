@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mokepón</title>
+    </head>
+    
+    <body>
+        <h1>Mokepón 🔥💧🌱</h1>
+
+        <section id="select-pet">
+            <h2>Select your pet</h2>
+
+            <input type="radio" id="pikachu" name="pets"></input>
+            <label for="pikachu">Pikachu</label>
+
+            <input type="radio" id="charmander" name="pets"></input>
+            <label for="charmander">Charmander</label>
+
+            <input type="radio" id="squirtle" name="pets"></input>
+            <label for="squirtle">Squirtle</label>
+        </section>
+
+        <section id="select-attack">
+            <h2>Select your pet's attack</h2>
+
+            <p>You choose <span id="player-pet-name"></span> as a pet and it has <span id="player-pet-lives"></span> lives</p>
+
+            <p>Your enemy choose <span id="enemy-pet-name"></span> as a pet and it has <span id="enemy-pet-lives"></span> lives</p>
+
+            <p>
+                <button type="button" id="fire-button">Fire!🔥</button>
+                <button type="button" id="water-button">Water!💧</button>
+                <button type="button" id="land-button">Land!🌱</button>
+            </p>            
+        </section>
+
+        <section id="game-results"></section>
+
+        <section id="reset-game">
+            <button type="button" id="reset-game-button">Reset!⚙️</button>
+        </section>
+    </body>
+</html>
