@@ -4,25 +4,28 @@
         <meta charset="UTF-8"/>
         <title>Mokepón</title>
         <script type="text/javascript" src="./js/script.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nicomoji.css">
         <link rel="stylesheet" href="./styles.css">
     </head>
     
     <body>
-        <h1 id="title" class="title">Mokepón 🔥💧🌱</h1>
+        <section id="select-pet"> <!-- parent container-->
+            <h1 id="title" class="title">ポケットモンスター</h1>
 
-        <section id="select-pet"> <!-- container-->
-            <h2>Select your pet</h2>
+            <h2 class="subtitle">Elige tu mascota</h2>
 
-            <input type="radio" id="pikachu" name="pets"></input>
-            <label for="pikachu">Pikachu</label>
+            <div class="tarjetas"> <!-- permite amarrar etiquetas -->
+                <label class="tarjeta-de-mokepon" for="pikachu">Pikachu</label>
+                <input type="radio" id="pikachu" name="pets"></input>
 
-            <input type="radio" id="charmander" name="pets"></input>
-            <label for="charmander">Charmander</label>
+                <label class="tarjeta-de-mokepon" for="charmander">Charmander</label>
+                <input type="radio" id="charmander" name="pets"></input>
 
-            <input type="radio" id="squirtle" name="pets"></input>
-            <label for="squirtle">Squirtle</label>
-
-            <button type="button" id="select-pet-button">Select pet!</button>
+                <label class="tarjeta-de-mokepon" for="squirtle">Squirtle</label>
+                <input type="radio" id="squirtle" name="pets"></input>
+            </div>
+            
+            <button type="button" id="select-pet-button">Seleccionar 🤘🏻</button>
         </section>
 
         <section id="select-attack">

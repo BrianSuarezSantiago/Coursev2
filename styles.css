@@ -1,8 +1,52 @@
-.title {
-    color: red;
-    width: 310px;
-    height: 50px;
-    background-color: teal;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+	font-family: 'Fredoka One', cursive;
+	background-color: #041562;
 }
 
 
+#title {
+	color: red;
+	font-size: 72px;
+}
+
+
+.subtitle {
+	color: white;
+	font-size: 32px;
+}
+
+
+#select-pet {
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tarjetas {
+	display: flex;
+	align-content: center;
+	gap: 10px;	/* margin en flexbox*/
+}
+
+
+.tarjeta-de-mokepon {
+	height: 200px;
+    width: 200px;
+    background-color: #11468f;
+	color: white;
+    padding: 10px;
+    box-sizing: border-box;
+
+	border-radius: 10px;
+}
+
+
+input {
+	display: none;
+}
+/*box-sizing = border-box --> permite que el padding no cambie de valor el tamaño de nuestro elemento*/
